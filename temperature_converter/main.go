@@ -43,7 +43,3 @@ func main() {
 	// Print without decimal places
 	fmt.Printf("%.0f %s\n", result.Value, result.Unit)
 }
-
-func init() {
-	fmt.Println("Temperature Converter Initialized")
-}
